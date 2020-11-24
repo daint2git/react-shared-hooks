@@ -1,0 +1,44 @@
+{
+  "name": "react-shared-hooks",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@types/node": "^14.14.9",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/webpack": "^4.41.25",
+    "@types/webpack-dev-server": "^3.11.1",
+    "@typescript-eslint/eslint-plugin": "^4.8.2",
+    "@typescript-eslint/parser": "^4.8.2",
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-import-resolver-typescript": "^2.3.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "7.21.5",
+    "eslint-plugin-react-hooks": "4",
+    "fork-ts-checker-webpack-plugin": "^6.0.3",
+    "html-webpack-plugin": "^4.5.0",
+    "prettier": "^2.2.0",
+    "ts-loader": "^8.0.11",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2",
+    "webpack": "4.44.2",
+    "webpack-cli": "3.3.1",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "17.0.0",
+    "react-dom": "17.0.0",
+    "react-is": "17.0.0"
+  },
+  "engines": {
+    "node": ">=12.14.0",
+    "yarn": ">=1.22.4"
+  },
+  "scripts": {
+    "lint:es": "eslint . --ext .js,.ts,.tsx",
+    "dev": "ts-node -p tsconfig.webpack.json webpack-dev-server"
+  }
+}
